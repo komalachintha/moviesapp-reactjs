@@ -128,7 +128,7 @@ class PopularItem extends Component {
             }
           }
 
-          return <div testid="trending">{getResult()}</div>
+          return <div data-testid="trending">{getResult()}</div>
         }}
       </MovieContext.Consumer>
     )
